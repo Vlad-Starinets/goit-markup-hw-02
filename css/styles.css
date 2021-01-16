@@ -1,6 +1,13 @@
-body{
-    font-family: 'Roboto', sans-serif;
+:root {
+--text-font: 'Roboto', sans-serif;
+--accent-color: #2196F3;
 }
+
+body{
+    font-family: var(--text-font)
+}
+
+/* ====================== HEADER========================= */
 
 .Logo {
     font-family: Raleway;
@@ -13,7 +20,7 @@ body{
 }
 
 .Logo-web{
-    color: #2196F3
+    color: var(--accent-color);
 }
 
 .navigation-list-link { 
@@ -26,7 +33,7 @@ body{
 
 .navigation-list-link:hover,
 .navigation-list-link:focus {
-    color:#2196F3;
+    color: var(--accent-color);
 }
 
 .contact-mail {
@@ -46,15 +53,18 @@ body{
 
 .contact-mail:hover,
 .contact-mail:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .contact-tel:hover,
 .contact-tel:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
+/* ====================== END HEADER ========================= */
 
+
+/* ======================== HERO ============================ */
 .hero-title {
     font-weight: 900;
     font-size: 44px;
@@ -75,10 +85,16 @@ body{
     text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
-    background: #2196F3;
+    background: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
+
+/* ======================== END HERO ============================ */
+
+
+/* ======================== What are we doing ============================ */
+
 
 .features-title {
     font-weight: 700;
@@ -96,6 +112,12 @@ body{
     letter-spacing: 0.03em;
     color: #757575;
 }
+
+/* ======================== END What are we doing ============================ */
+
+
+/* ======================== Our team ============================ */
+
 
 .work-title,
 .team-title {
@@ -123,6 +145,12 @@ body{
     color: #757575;
 }
 
+
+/* ======================== END Our team ============================ */
+
+/* ======================== ADDRESS ============================ */
+
+
 .address-link {
     font-weight: 400;
     font-size: 14px;
@@ -130,6 +158,12 @@ body{
     letter-spacing: 0.03em;
     /* color: rgba(255, 255, 255, 0.6); */
 }
+
+/* ======================== END ADDRESS ============================ */
+
+
+/* ======================== Portfolio ============================ */
+
 
 .Portfolio-button {
 font-weight: 500;
@@ -143,7 +177,7 @@ background: #F5F4FA;
 
 .Portfolio-button:hover,
 .Portfolio-button:focus {
-    background: #2196F3;
+    background: var(--accent-color);
     color: #FFFFFF;
 }
 
@@ -162,3 +196,5 @@ background: #F5F4FA;
     letter-spacing: 0.03em;
     color: #757575;
 }
+
+/* ======================== END Portfolio ============================ */
