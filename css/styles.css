@@ -261,7 +261,7 @@ background: #F5F4FA;
 .portfolio-button:hover,
 .portfolio-button:focus {
     background: var(--accent-color);
-    color:var(--second-text-color);
+    color: var(--second-text-color);
 }
 
 .portfolio-nav-title {
