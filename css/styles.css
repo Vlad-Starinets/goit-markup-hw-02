@@ -36,6 +36,9 @@ body{
     list-style: none;
 }
 
+.navigation-list .navigation-list-item .navigation-list-link.current{
+    color: var(--accent-color);
+}
 
 .navigation-list-link { 
     font-weight: 500;
